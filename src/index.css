@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.credit-card-container{
+  background:url('./image/cardbg.jpg');
+  width: 425px;
+  padding: 5px 27px 0;
+  margin: 70px;
+  color:white;
+  border-radius: 20px
+
+}
+.credit-card-container h1{
+  float: right;
+}
+.chip-img{
+  width: 105px;
+  height: 100px;
+  margin-top: 40px;
+  padding: 0px;
+}
+.credit-card_content{
+  display: flex
+}
+.credit-card-numbers{
+ flex:1;
+ padding-right: 15px
+
+}
+.credit-card-rip {
+ color: #CFB53B;
+ background-color: rgb(207,181,59,0.4);
+ padding: 0;
+ margin: 0;
+}
+.credit-card-code {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.credit-card-code h2{
+ padding: 20px;
+ margin: 0
+}
+.holder-name{
+  font-size: 1.2em;
+  padding:0;
+
+}
+.visa-logo{
+  width:80px;
+  display: flex;
+  align-items: center
+}
+.visa-logo img{
+  width: 100%
+}
+.form-container{
+  display: flex;
+
+}
+.form-inputs{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 80px
+}
+.form-inputs input{
+  padding: 5px;
+  margin:10px;
+  border-radius: 10px;
+  border: 2px solid #CFB53B
+}
